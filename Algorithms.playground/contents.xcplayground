@@ -7,5 +7,6 @@
         <page name='PrefixTree'/>
         <page name='ListCycle'/>
         <page name='LRUCache'/>
+        <page name='BSTInorderTraversal'/>
     </pages>
 </playground>
