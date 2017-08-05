@@ -8,5 +8,8 @@
         <page name='ListCycle'/>
         <page name='LRUCache'/>
         <page name='BSTInorderTraversal'/>
+        <page name='PathFinder'/>
+        <page name='CapitalPermutation'/>
+        <page name='GCD'/>
     </pages>
 </playground>

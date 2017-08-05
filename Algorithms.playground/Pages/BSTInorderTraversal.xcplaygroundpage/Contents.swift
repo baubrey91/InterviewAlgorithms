@@ -13,7 +13,7 @@ class BSTNode {
 }
 
 func inorderTraversal(head: BSTNode?) -> [Int] {
-    var result = [Int]()
+   /* var result = [Int]()
     var stack = [BSTNode]()
     
     if head == nil {
@@ -31,13 +31,37 @@ func inorderTraversal(head: BSTNode?) -> [Int] {
             node = node!.rightChild
         }
     }
-    return result
+    return result*/
+    
+    var root = head
+    var arr = [Int]()
+    var i: Int = 0
+    while(true) {
+        if root?.leftChild != nil {
+            var current = root?.leftChild
+            while current?.rightChild != nil {
+                current = current?.rightChild
+            }
+            current?.rightChild = root
+            var temp = root
+            root = root?.leftChild
+            temp?.leftChild = nil
+        } else {
+            arr.append((root?.value)!)
+            i += 1
+            root = root?.rightChild
+        }
+        if root == nil {
+            break
+        }
+    }
+    return arr
 }
 
-var node4 = BSTNode(value: 1, leftChild: nil, rightChild: nil)
-var node3 = BSTNode(value: 2, leftChild: nil, rightChild: node4)
-var node2 = BSTNode(value: 3, leftChild: nil, rightChild: nil)
-var node1 = BSTNode(value: 4, leftChild: node3, rightChild: nil)
-var root = BSTNode(value: 5, leftChild: node1, rightChild: node2)
+var node4 = BSTNode(value: 4, leftChild: nil, rightChild: nil)
+var node3 = BSTNode(value: 3, leftChild: nil, rightChild: nil)
+var node2 = BSTNode(value: 2, leftChild: node3, rightChild: nil)
+var node1 = BSTNode(value: 1, leftChild: node3, rightChild: nil)
+var root = BSTNode(value: 99, leftChild: nil, rightChild: node2)
 
-inorderTraversal(head: root)
+print(inorderTraversal(head: root))
