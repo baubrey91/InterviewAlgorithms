@@ -8,5 +8,20 @@
         <page name='ListCycle'/>
         <page name='LRUCache'/>
         <page name='BSTInorderTraversal'/>
+        <page name='AddTwoNumbers'/>
+        <page name='GoogleSubviews'/>
+        <page name='RomanToInt'/>
+        <page name='SymetricalTree'/>
+        <page name='LongestCommonPrefix'/>
+        <page name='MergeSortedArray'/>
+        <page name='ValidParentheses'/>
+        <page name='PascalsTriangle'/>
+        <page name='isPossible'/>
+        <page name='CounterGame'/>
+        <page name='PlusOne'/>
+        <page name='RemoveElement'/>
+        <page name='RemoveDuplicates'/>
+        <page name='LengthLastWord'/>
+        <page name='singleNumber'/>
     </pages>
 </playground>
