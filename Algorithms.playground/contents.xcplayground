@@ -23,5 +23,6 @@
         <page name='RemoveDuplicates'/>
         <page name='LengthLastWord'/>
         <page name='singleNumber'/>
+        <page name='LinkedListDuplicate'/>
     </pages>
 </playground>

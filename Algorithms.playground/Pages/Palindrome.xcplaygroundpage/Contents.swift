@@ -6,7 +6,7 @@ import Foundation
 func palidrome(input: String) -> Bool {
     
     //Regex
-    let charSet = NSCharacterSet(charactersIn: "abcdefghijklmnopqrstuvwxyz").inverted
+    let charSet = NSCharacterSet(charactersIn: "abcdefghijklmnopqrstuvwxyz0123456789").inverted
     let s = input.lowercased().components(separatedBy: charSet).joined(separator: "")
     
     //Check if empty
@@ -28,4 +28,9 @@ func palidrome(input: String) -> Bool {
     //return s == s.characters.reversed()
 }
 
-palidrome(input: "A man: a plan: a canal: panama")
+palidrome(input: "0P")
+
+func isPalindrome(_ s: String) -> Bool {
+    
+    return s == String(s.characters.reversed())
+}
