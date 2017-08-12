@@ -21,3 +21,8 @@ func anagram(arr: [String]) -> [[Int]] {
 }
 
 anagram(arr: ["cat", "dog", "dog", "tca"])
+
+func anagram(s1: String, s2: String) {
+    return (s1.characters.sorted() == s2.characters.sorted()) ? true : false
+    
+}

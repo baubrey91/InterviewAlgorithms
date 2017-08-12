@@ -1,28 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios'>
     <pages>
-        <page name='anagrams'/>
-        <page name='Palindrome'/>
-        <page name='ReverseLinkedList'/>
-        <page name='PrefixTree'/>
-        <page name='ListCycle'/>
-        <page name='LRUCache'/>
-        <page name='BSTInorderTraversal'/>
         <page name='AddTwoNumbers'/>
-        <page name='GoogleSubviews'/>
-        <page name='RomanToInt'/>
-        <page name='SymetricalTree'/>
-        <page name='LongestCommonPrefix'/>
-        <page name='MergeSortedArray'/>
-        <page name='ValidParentheses'/>
-        <page name='PascalsTriangle'/>
-        <page name='isPossible'/>
+        <page name='anagrams'/>
+        <page name='BSTInorderTraversal'/>
+        <page name='BuySellStock'/>
+        <page name='CapitalPermutation'/>
+        <page name='CountAndSay'/>
         <page name='CounterGame'/>
-        <page name='PlusOne'/>
-        <page name='RemoveElement'/>
-        <page name='RemoveDuplicates'/>
+        <page name='GCD'/>
+        <page name='GoogleSubviews'/>
+        <page name='HouseRobber'/>
+        <page name='IsBalanced'/>
+        <page name='IslandPermeter'/>
+        <page name='isPossible'/>
         <page name='LengthLastWord'/>
-        <page name='singleNumber'/>
         <page name='LinkedListDuplicate'/>
+        <page name='ListCycle'/>
+        <page name='LongestCommonPrefix'/>
+        <page name='LongestSubstring'/>
+        <page name='LRUCache'/>
+        <page name='maxArea'/>
+        <page name='MergeSortedArray'/>
+        <page name='Palindrome'/>
+        <page name='PascalsTriangle'/>
+        <page name='PathFinder'/>
+        <page name='PathSum'/>
+        <page name='PlusOne'/>
+        <page name='PrefixTree'/>
+        <page name='RemoveDuplicates'/>
+        <page name='RemoveElement'/>
+        <page name='ReverseLinkedList'/>
+        <page name='RomanToInt'/>
+        <page name='singleNumber'/>
+        <page name='SymetricalTree'/>
+        <page name='RotateArray'/>
+        <page name='ValidParentheses'/>
+        <page name='isSameTree'/>
+        <page name='isNumber'/>
     </pages>
 </playground>
