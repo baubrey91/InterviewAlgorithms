@@ -33,4 +33,19 @@ func printSubview(mainView: UIView, indent: Int) {
     }
 }
 
+/*
+var tab = "     "
+var indentation = ""
+func printSubview(mainView: UIView) {
+
+    print("\(indentation) + \(mainView)")
+    for subView in mainView.subviews {
+        if subView.subviews != nil {
+            indentation = indentation + tab
+            printSubview(mainView: subView)
+        }
+    }
+}
+*/
+
 printSubview(mainView: view1, indent: 0)
